@@ -24,15 +24,23 @@ export function Home() {
                 <Row>
                     <Col>
                         <h1 style={center()}>
-                            Super Simple<br/>Super Bowl<br/>Squares
+                            pitStop
                         </h1>
                     </Col>
                 </Row>
                 <Row>
-                    <br/>
+                    <iframe
+                        width="600"
+                        height="450"
+                        // style="border:0"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCQ4bVtRBXal_uIOwwn65474LkjE6WpJ9U
+                            &q=Space+Needle,Seattle+WA">
+                    </iframe>
                 </Row>
                 <Row>
-                    <Col style={center()}>
+                    {/* <Col style={center()}>
                         <Row>
                             <Col>
                                 <Button style={blackButton()} onClick={createGroup}>
@@ -50,7 +58,7 @@ export function Home() {
                                 </Button>
                             </Col>
                         </Row>
-                    </Col>
+                    </Col> */}
                 </Row>
                 <Row style={center()}>
                     <p style={lowerText()}>by brendan carr</p>
