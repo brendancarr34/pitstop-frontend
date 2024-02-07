@@ -1,0 +1,16 @@
+.square-md {
+    width: 30px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 30px !important;
+    text-align: center;
+    padding: 0px;
+    border: "1px solid black";
+  }
+
+/* -- remove form control bootstrap style -- */
+#my-form-id .form-control:focus{
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
