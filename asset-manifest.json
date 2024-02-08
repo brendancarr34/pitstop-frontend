@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2cab247.css",
-    "main.js": "/static/js/main.fb7fd753.js",
-    "index.html": "/index.html",
-    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
-    "main.fb7fd753.js.map": "/static/js/main.fb7fd753.js.map"
+    "main.css": "/pitstop-frontend/static/css/main.c2cab247.css",
+    "main.js": "/pitstop-frontend/static/js/main.fb7fd753.js",
+    "index.html": "/pitstop-frontend/index.html",
+    "main.c2cab247.css.map": "/pitstop-frontend/static/css/main.c2cab247.css.map",
+    "main.fb7fd753.js.map": "/pitstop-frontend/static/js/main.fb7fd753.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
