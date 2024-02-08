@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
+import MapComponent from '../component/MapComponent';
+import MapComponent2 from '../component/MapComponent2';
 
 export function Home() {
 
@@ -29,7 +31,7 @@ export function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <iframe
+                    {/* <iframe
                         width="600"
                         height="450"
                         // style="border:0"
@@ -37,7 +39,8 @@ export function Home() {
                         referrerPolicy="no-referrer-when-downgrade"
                         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCQ4bVtRBXal_uIOwwn65474LkjE6WpJ9U
                             &q=Space+Needle,Seattle+WA">
-                    </iframe>
+                    </iframe> */}
+                    <MapComponent2/>
                 </Row>
                 <Row>
                     {/* <Col style={center()}>
@@ -60,9 +63,9 @@ export function Home() {
                         </Row>
                     </Col> */}
                 </Row>
-                <Row style={center()}>
+                {/* <Row style={center()}>
                     <p style={lowerText()}>by brendan carr</p>
-                </Row>
+                </Row> */}
             </Row>
         </Container>
     )
